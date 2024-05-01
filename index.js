@@ -47,4 +47,4 @@ console.log(selectedParentElement.childNodes); //KUHAON TANANG DATA SA ELEMENTS 
 //SELECTING SIBLINGS ELEMENTS - PREVIOUSE-ELEMENT
 let selectingSiblings = document.querySelector('.secondSiblingElements');
 console.log(selectingSiblings.previousElementSibling); //kuhaon niyang unang sibling element which is ( <h4 >AYAW KOL BATA PAKO KOL</h4>)
-console.log(selectingSiblings.nextElementSibling); //kuhaon niyang sunod sa gigamit sa querySelector which is sibling element  ( <h4 >ANG NATULOG NA SI JUN2</h4>)
+console.log(selectingSiblings.nextElementSibling); //kuhaon niyang sunod sa gigamit sa querySelector which is sibling element  ( <h4 ></h4>)
