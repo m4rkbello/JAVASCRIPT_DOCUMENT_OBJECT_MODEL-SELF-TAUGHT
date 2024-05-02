@@ -49,9 +49,10 @@ console.log(selectingSiblings.previousElementSibling); //kuhaon niyang unang sib
 console.log(selectingSiblings.nextElementSibling); //kuhaon niyang sunod sa gigamit sa querySelector which is sibling element  ( <h4 ></h4>)
 
 
-
 // DOCUMENT - createElement();
 let divContainer = document.createElement('div');
 divContainer.innerHTML = "PADAYON LANG MAGING JS DEVELOPER!";
 document.body.appendChild(divContainer);
 console.log(divContainer);
+
+
