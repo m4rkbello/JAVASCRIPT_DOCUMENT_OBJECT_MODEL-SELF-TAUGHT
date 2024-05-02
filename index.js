@@ -56,3 +56,15 @@ document.body.appendChild(divContainer);
 console.log(divContainer);
 
 
+//AppendChild - E add niya sa pinakalast 
+let divMenu = document.getElementById('menu');
+let list = document.createElement('li');
+list.innerHTML = "Links";
+menu.appendChild(list);
+
+
+//textContent - textContent - kuhaon niyang context sa content
+let textData = document.getElementById("text-content");
+console.log(textData.textContent); //
+
+
