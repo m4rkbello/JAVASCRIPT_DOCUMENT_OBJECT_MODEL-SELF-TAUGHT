@@ -67,4 +67,5 @@ menu.appendChild(list);
 let textData = document.getElementById("text-content");
 console.log(textData.textContent); //
 
+console.log("GAMIT INNERHTML", menu.innerText);
 
