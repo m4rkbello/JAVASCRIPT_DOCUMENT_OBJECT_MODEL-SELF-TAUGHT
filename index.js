@@ -67,5 +67,12 @@ menu.appendChild(list);
 let textData = document.getElementById("text-content");
 console.log(textData.textContent); //
 
+//innerText - kuhaon ang unorder list gamit id
 console.log("GAMIT INNERHTML", menu.innerText);
+
+
+//innerText - giapplyan ug css display:none;
+console.log("GAMIT INNERHTML", innerTextData.innerText);
+
+
 
