@@ -95,6 +95,10 @@ appendMethod1.append(appendMethod2);
 prepend1.prepend(prepend2);
 
 
+let insertAdjacentHtmlKunuhay = document.getElementById('insertAdjacentId');
+insertAdjacentHtmlKunuhay.insertAdjacentElement(insertAdjacent2, insertAdjacent3)
+
+
 
 
 
