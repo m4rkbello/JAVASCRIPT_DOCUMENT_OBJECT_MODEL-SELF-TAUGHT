@@ -91,13 +91,17 @@ console.log("after method", test);
 //append menthod - isumpay niya
 appendMethod1.append(appendMethod2);
 
-//prepend method 
+//prepend method - isumpay niya
 prepend1.prepend(prepend2);
 
-
+// insertAdjacentElement - isumpay niya
 let insertAdjacentHtmlKunuhay = document.getElementById('insertAdjacentId');
 insertAdjacentHtmlKunuhay.insertAdjacentElement(insertAdjacent2, insertAdjacent3)
 
+
+//replaceChild method - iyang ilisan base sa id na isapa
+let replacer = document.getElementById('mainReplacer')
+replacer.replaceChild(replaceChildChild, replaceChildParent);
 
 
 
