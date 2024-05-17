@@ -107,7 +107,6 @@ prepend1.prepend(prepend2);
 //cloneNode method - from the root word itself clone  iyang kopyahon
 let copy = cloneNode1.cloneNode(true);
 // let copy2 = copy.cloneNode(true);
-
 console.log("DATA SA CLONE NODE", copy);
 
 
