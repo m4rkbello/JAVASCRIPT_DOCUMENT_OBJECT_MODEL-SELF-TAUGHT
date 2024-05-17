@@ -85,8 +85,8 @@ innerHtmlWithTags.textContent = "<h1>innerHTML naay tag! </h1>";
 
 
 //after method
-const test = afterMethod1.after(node);
-console.log("after method", test);
+// const test = afterMethod1.afterBegin(node);
+// console.log("after method", test);
 
 //append menthod - isumpay niya
 appendMethod1.append(appendMethod2);
@@ -95,13 +95,20 @@ appendMethod1.append(appendMethod2);
 prepend1.prepend(prepend2);
 
 // insertAdjacentElement - isumpay niya
-let insertAdjacentHtmlKunuhay = document.getElementById('insertAdjacentId');
-insertAdjacentHtmlKunuhay.insertAdjacentElement(insertAdjacent2, insertAdjacent3)
+// let insertAdjacentHtmlKunuhay = document.getElementById('insertAdjacentId');
+// insertAdjacentHtmlKunuhay.insertAdjacentElement(insertAdjacent2, insertAdjacent3)
 
 
 //replaceChild method - iyang ilisan base sa id na isapa
-let replacer = document.getElementById('mainReplacer')
-replacer.replaceChild(replaceChildChild, replaceChildParent);
+// let replacer = document.getElementById('mainReplacer')
+// replacer.replaceChild(replaceChildChild, replaceChildParent);
+
+
+//cloneNode method - from the root word itself clone  iyang kopyahon
+let copy = cloneNode1.cloneNode(true);
+// let copy2 = copy.cloneNode(true);
+
+console.log("DATA SA CLONE NODE", copy);
 
 
 
