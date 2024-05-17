@@ -88,8 +88,12 @@ innerHtmlWithTags.textContent = "<h1>innerHTML naay tag! </h1>";
 const test = afterMethod1.after(node);
 console.log("after method", test);
 
-
+//append menthod - isumpay niya
 appendMethod1.append(appendMethod2);
+
+//prepend method 
+prepend1.prepend(prepend2);
+
 
 
 
