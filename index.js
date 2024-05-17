@@ -75,4 +75,30 @@ console.log("GAMIT INNERHTML", menu.innerText);
 console.log("GAMIT INNERHTML", innerTextData.innerText);
 
 
+//textContect - insert ugg data gamit textContent
+textcontentInsertData.textContent = "AYAW KOL!";
+
+
+// innerHTML naay tag 
+innerHtmlWithTags.innerHTML = "<h1>innerHTML naay tag! </h1>";
+innerHtmlWithTags.textContent = "<h1>innerHTML naay tag! </h1>";
+
+
+//after method
+const test = afterMethod1.after(node);
+console.log("after method", test);
+
+
+appendMethod1.append(appendMethod2);
+
+
+
+
+
+
+
+
+
+
+
 
